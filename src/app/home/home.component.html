@@ -1,0 +1,21 @@
+<div style="padding: 13px;">
+    <mat-spinner *ngIf="products.length === 0"></mat-spinner>
+    <div class="cards" fxLayout = "row wrap" fxLayoutGap = "30px grid">
+        <div *ngFor="let product of products" style="margin-top:30px;" fxFlex = "25%">
+            <mat-card (click)="openDialog(product.id)">
+                <mat-card-content>  
+                    <img mat-card-image src="{{ product.Image }}">  
+                </mat-card-content>
+                
+                <mat-card-actions>
+                    <mat-card-title>
+                        {{product.name}}
+                    </mat-card-title>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+</div>
+
+
+<!-- <p>{{keys}}</p> -->

@@ -1,0 +1,15 @@
+
+<mat-dialog-content style="height: 950px;">
+    <mat-card style="width: 300px;">
+        <mat-card-title>
+            {{data.name}}
+        </mat-card-title>
+            <img mat-card-image src="{{data.image}}">
+        
+    </mat-card>
+    <h3>Белки: - {{data.proteins}} - Жиры:  {{data.fats}} - Углеводы:  {{data.carbohydrates}}</h3>
+</mat-dialog-content>
+    
+<mat-dialog-actions>
+    <button class="mat-raised-button" (click)="close()">Close</button>
+</mat-dialog-actions>

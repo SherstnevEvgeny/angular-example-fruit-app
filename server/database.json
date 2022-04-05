@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Яблоко",
+            "Proteins": 0.4,
+            "Fats": 0.4,
+            "Carbohydrates": 9.8,
+            "Image": "https://m.dom-eda.com/uploads/images/catalog/item/86df51de21/c25c94fe96_1000.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Киви",
+            "Proteins": 0.8,
+            "Fats": 0.4,
+            "Carbohydrates": 8.1,
+            "Image": "https://resizer.mail.ru/p/01e51275-ca80-5200-89bf-30b794ef5cac/AAAcwSuuBwMB9cLtMBfj_WfTWu44JUYLT_Ix1jfjTfHmbK_Ycuaiyqi-ga9aLwdoiO1SLdxKE05z3EhqIbDVn4qDbDE.jpg"
+        }
+    ]
+}

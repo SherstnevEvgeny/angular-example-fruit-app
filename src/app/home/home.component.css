@@ -1,0 +1,12 @@
+.cards{
+    padding: 16px;
+}
+
+.cards > mat-card {
+    width: 300px;
+    background-color: azure;
+}
+
+/* .bckg {
+    background-image: url({product.imageUrl});
+} */
